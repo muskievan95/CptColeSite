@@ -1,7 +1,24 @@
  a:hover {
-    color:rgb(141, 135, 135) !important;
+    color:#06132D !important;
 }
 
 a{
     font-size: 14px !important;
+}
+
+.card-body{
+    background-color:#06132D !important ;
+}
+
+.zdex{
+    z-index: -1 !important;
+   
+}
+
+.card-group{
+
+    background-color: gainsboro !important;
+}
+a{
+    text-decoration: none !important;
 }
