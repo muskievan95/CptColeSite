@@ -9,38 +9,39 @@
     
     <title>Document</title>
 </head>
-<body>
-  <!-- Navbar -->
-    <nav class="navbar navbar-light bg-primary sticky-top bg-opacity-10 ">
-        <div class="container-fluid ">
-          <!-- navbar logo -->
-        <img class="img-fluid"  src="/biteslogo.png" alt="" width="30" height="30" >
-        
+<body class=" bg-dark" >
+   <!--  logo -->
+    <div class="container-fluid  zdex  ">
+      <img class="img-fluid justify-content-center "  src="/biteslogo.png" alt="" width="65"  >
+      
+    </div>
+    
 
-        <!-- navbar items -->
-        <div class="d-flex">
-          <a class="navbar-brand text-dark  " href="#">About</a>
-          <a class="navbar-brand text-dark" href="#">Pricing</a>
-          <a class="navbar-brand text-dark" href="#">Contact</a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light  bg-opacity-10   ">
+        <div class="container-fluid justify-content-center">
+         
+          <a class="navbar-text text-white m-2" href="#about">About</a>
+          <a class="navbar-text text-white m-2" href="#photos">Photos</a>
+          <a class="navbar-text text-white m-2" href="#price">Pricing</a>
+          <a class="navbar-text text-white m-2" href="#contact">Contact</a>
        </div>
-      </div>
 
       
       </nav>
 
       <!-- Carousel Img Slider -->
-
-      
-        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="container w-auto">
+        <div id="carouselExampleControls" class="carousel slide carousel-fade " data-bs-ride="carousel" data-bs-interval="5000">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="Big tiger resize.jpg" class="d-block w-100  " alt="...">
+              <img src="Big tiger resize.jpg" class=" img-fluid d-block w-100 rounded-3  " alt="...">
             </div>
             <div class="carousel-item">
-              <img src="barredresize.jpg" class="d-block w-100 " alt="...">
+              <img src="barredresize.jpg" class=" img-fluid d-block w-100 rounded-3" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="silvermuskie.jpg" class="d-block w-100" alt="...">
+              <img src="silvermuskie.jpg" class=" img-fluid d-block w-100 rounded-3" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -53,36 +54,69 @@
           </button>
         </div>
 
+      </div>
+
+      
+        
+
+
+
+      
+       
+
 
       
       
      
 
-
+        
       <!-- price cards -->
-      <div class="container mt-4 d-flex justify-content-center ">
-        <div class="row ">
-          <div class="col ">
-            <div class="card" style="width: 25rem;">
-              <div class="card-body text-center ">
-                <h5 class="card-title">Half Day</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+      <div class="card-group p-4 m-3 rounded-2 ">
+        <div class="col d-flex justify-content-lg-end justify-content-md-center justify-content-center  mb-2 ">
+          <div class="text-center  text-white " style="width: 15rem;">
+            <div class="card-body rounded-2 shadow-lg">
+              <h6 class="card-title">Half Day</h6>
+              <p class="card-text">$</p>
+              <a href="#" class="btn btn-primary">Book Now</a>
             </div>
           </div>
-          <div class="col">
-            <div class="card" style="width: 25rem;">
-              <div class="card-body text-center">
-                <h5 class="card-title">Full Day</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+        </div>
+
+        <div class="col d-flex justify-content-center mb-2">
+          <div class="card text-center  text-white" style="width: 17rem;">
+            <div class="card-body rounded-2  ">
+              <h5 class="card-title">Whats Included</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
             </div>
           </div>
-          
+        </div>
+
+        <div class="col d-flex justify-content-lg-start justify-content-md-center
+        justify-content-center mb-2">
+          <div class=" text-center  text-white" style="width: 15rem;">
+            <div class="card-body rounded-2 ">
+              <h6 class="card-title">Full Day</h6>
+              <p class="card-text">$$</p>
+              <a href="#" class="btn btn-light">Book Now</a>
+            </div>
+          </div>
         </div>
       </div>
+
+
+      <div class="jumbotron text-center p-3">
+        <h1 class="display-4 text-white">About Me</h1>
+        <p class="lead text-white ">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p class="text-white">It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg text-white mb-4" href="#" role="button">Learn more</a>
+      </div>
+        
+            
+
+
+      
 
 
       
