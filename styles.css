@@ -1,13 +1,15 @@
  a:hover {
     color:#06132D !important;
+   
 }
 
 a{
     font-size: 14px !important;
 }
 
+
 .card-body{
-    background-color:#06132D !important ;
+    background-color:#857250 !important ;
 }
 
 .zdex{
@@ -17,7 +19,7 @@ a{
 
 .card-group{
 
-    background-color: gainsboro !important;
+    background-color: #06132D  !important;
 }
 a{
     text-decoration: none !important;
@@ -39,4 +41,9 @@ a{
 .fontstyle
 {font-family: 'Abel', sans-serif;
 font-family: 'Supermercado One', cursive;
+}
+
+.resize{
+
+    min-width: auto;  !important;
 }
