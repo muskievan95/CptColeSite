@@ -22,3 +22,21 @@ a{
 a{
     text-decoration: none !important;
 }
+
+.font{
+    font-size: 12px !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+   
+}
+
+.navbar-toggler{
+    background-color: #06132D  !important;
+
+}
+
+.fontstyle
+{font-family: 'Abel', sans-serif;
+font-family: 'Supermercado One', cursive;
+}
