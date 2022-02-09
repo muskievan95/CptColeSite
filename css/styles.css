@@ -1,7 +1,12 @@
- a:hover {
+
+ 
+ a:focus  {
     color:#06132D !important;
-   
+    animation-duration: 15ms;
+  
 }
+
+
 
 a{
     font-size: 14px !important;
@@ -10,6 +15,10 @@ a{
 
 .card-body{
     background-color:#857250 !important ;
+}
+
+.btn{
+    background-color: #06132D !important;
 }
 
 .zdex{
@@ -26,9 +35,12 @@ a{
 }
 
 .font{
-    font-size: 12px !important;
+    font-size: 14px !important;
 }
 
+.card-group p{
+    font-size: 18px;
+}
 .navbar-light .navbar-toggler-icon {
    
 }
@@ -39,11 +51,20 @@ a{
 }
 
 .fontstyle
-{font-family: 'Abel', sans-serif;
-font-family: 'Supermercado One', cursive;
+{
+font-family: 'Supermercado One', sans-serif;
+}
+
+nav a{
+    font-family: 'Supermercado One', sans-serif;
+
 }
 
 .resize{
 
-    min-width: auto;  !important;
+    min-width: auto  !important;
+}
+
+.input-group{
+    width: 25rem !important;
 }
