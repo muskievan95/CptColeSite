@@ -15,15 +15,17 @@
 <body class=" bg-dark" >
 
   <!-- navbar logo -->
-  <nav class="navbar navbar-expand-md navbar-light bg-dark px-2">
+  <nav class="navbar navbar-expand-md navbar-light  px-2">
     <a class="navbar-brand px-2" href="index.html">
-        <img class="img-fluid justify-content-center "  src="/imgs/biteslogo.png" alt="" width="55"  >
+        <img class="img-fluid justify-content-center "  src="/imgs/sharklogowhite.png" alt="" width="55"  >
     </a>
-    <h3 class="text-white    fontstyle">Musky Bites</h3>
+    <a href="index.html" class="slogan">
+      <h3 class="text-white m-2 fontstyle">Musky Bites</h3>
+     </a>
 
     <!-- navbar -->
     <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon "></span>
+      <span class=" navbar-light navbar-toggler-icon "></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end px-2 " id="navbarNav">
       <ul class="navbar-nav text-center ">
@@ -49,17 +51,17 @@
 
 
   <!-- Carousel Img Slider -->
-  
+  <div class="container mt-3">
     <div id="carouselExampleControls" class="carousel slide carousel-fade " data-bs-ride="carousel" data-bs-interval="2000">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="/imgs/Big tiger resize.jpg " class="  d-block w-100 rounded-3 img-fluid " alt="...">
+          <img src="/imgs/Big tiger resize.jpg " class="  d-block w-100 rounded-3 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item ">
+          <img src="/imgs/barredresize.jpg" class="  d-block w-100 rounded-3 " alt="...">
         </div>
         <div class="carousel-item">
-          <img src="/imgs/barredresize.jpg" class="  d-block w-100 rounded-3 img-fluid" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="/imgs/silvermuskie.jpg" class="  d-block w-100 rounded-3" alt="...">
+          <img src="/imgs/silvermuskie.jpg" class="  d-block w-100 rounded-3 img-fluid" alt="...">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -71,6 +73,11 @@
         <span class="sr-only"></span>
       </a>
     </div>
+
+
+  </div>
+  
+    
       
 
   
@@ -124,7 +131,7 @@
   </div>
 
   <div class="container">
-    <div class="jumbotron text-center p-3" id="about">
+    <div class="jumbotron text-center p-3 rounded-2" id="about">
       <h1 class="display-4 text-white fontstyle">About Me</h1>
       <p class="lead text-white ">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
       <hr class="my-2">
@@ -133,20 +140,26 @@
     </div>
   </div>
 
-  <div class="container">
-    <div class="input-group mb-3">
-      <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-      <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
-    </div>
-    <div class="input-group mb-3">
-      <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-      <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
-    </div>
-    <div class="input-group mb-3">
-      <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-      <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
-    </div>
+  <div class="container d-flex justify-content-md-end justify-content-sm-center mt-3  " id="contact">
+    <form class="form">
+      <h2 class="text-white">Contact</h2>
+      <div class="input-group mb-3 ">
+      <input type="text" class="form-control" placeholder="Name" aria-label="Your Name Here" aria-describedby="button-addon2">
+      </div>
+      <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Phone Number" aria-label="Phone Number" aria-describedby="button-addon2">
+      </div>
+      <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Email" aria-label="Your Email Here" aria-describedby="button-addon2">
+      </div>
+      <div class="text-area">
+        <label for="messageForm" ></label>
+        <textarea name="message" placeholder="Message" id="messageForm" cols="" rows="3"></textarea>
+        <button type="submit" class="btn btn-primary mb-5 ">Submit</button>
+      </div>
+    </form>
   </div>
+    
 
 
   
