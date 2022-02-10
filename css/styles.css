@@ -1,5 +1,4 @@
 
- 
  a:focus  {
     color:#06132D !important;
     animation-duration: 15ms;
@@ -30,6 +29,11 @@ a{
 
     background-color: #06132D  !important;
 }
+
+.jumbotron{
+    background-color: #857250;
+  
+}
 a{
     text-decoration: none !important;
 }
@@ -41,13 +45,22 @@ a{
 .card-group p{
     font-size: 18px;
 }
-.navbar-light .navbar-toggler-icon {
-   
+.navbar-light .navbar-toggler{
+    border-color: #0275d8 !important;
 }
+
+.navbar-light.navbar-toggler-icon{
+
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+
+}
+/* .navbar{
+    background-color: #06132D  !important;
+} */
 
 .navbar-toggler{
     background-color: #06132D  !important;
-
+   
 }
 
 .fontstyle
@@ -67,4 +80,11 @@ nav a{
 
 .input-group{
     width: 25rem !important;
+}
+
+.container p{
+    color: #06132D !important;
+}
+.container h1{
+    color: #06132D !important;
 }
