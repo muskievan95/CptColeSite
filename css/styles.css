@@ -13,7 +13,9 @@ a{
 
 
 .card-body{
-    background-color:#857250 !important ;
+    background-color:#857250 !important;
+    border-color: black !important;
+    
 }
 
 .btn{
@@ -28,11 +30,25 @@ a{
 .card-group{
 
     background-color: #06132D  !important;
+    border-color: #06132D !important;
+    border-style: outset;
 }
 
 .jumbotron{
-    background-color: #857250;
-  
+    background-color: #857250 !important;
+    border-color: #06132D !important;
+    border-style: outset;
+}
+
+.form{
+    border-color: #06132D !important;
+    border-style: outset;
+    background-color: #06132D !important;
+}
+
+.cstmbtn{
+    background-color: #857250 !important;
+}
 }
 a{
     text-decoration: none !important;
@@ -88,3 +104,4 @@ nav a{
 .container h1{
     color: #06132D !important;
 }
+
