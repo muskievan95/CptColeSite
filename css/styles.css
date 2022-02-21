@@ -106,3 +106,7 @@ nav a{
     color: #06132D !important;
 }
 
+.grad {
+    background-image: linear-gradient(120deg, rgb(36, 35, 35), black);
+
+}
