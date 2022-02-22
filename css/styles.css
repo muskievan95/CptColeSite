@@ -1,3 +1,12 @@
+body{
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.grad {
+    background-image: linear-gradient(120deg, rgb(36, 35, 35), black);
+
+}
+
 
  a:focus  {
     color:#06132D !important;
@@ -104,9 +113,4 @@ nav a{
 }
 .container h1{
     color: #06132D !important;
-}
-
-.grad {
-    background-image: linear-gradient(120deg, rgb(36, 35, 35), black);
-
 }
